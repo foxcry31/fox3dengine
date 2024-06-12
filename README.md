@@ -2,7 +2,7 @@
  3D engine created by @foxcry31
 
 To build you need some libaries:
-* glfw 3.4 x64
-* glad (OpenGL core 3.3)
-* stb (to import textures)
-* glm (matrixes + math)
+* [glfw 3.4 x64](https://www.glfw.org/)
+* [glad (OpenGL core 3.3)](https://glad.dav1d.de/)
+* [stb_image (to import textures)](https://github.com/nothings/stb)
+* [glm (matrixes + math)](https://glm.g-truc.net)
