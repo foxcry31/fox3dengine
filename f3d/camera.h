@@ -1,5 +1,6 @@
 #ifndef CAMERA_CLASS_H
 #define CAMERA_CLASS_H
+#define GLM_ENABLE_EXPERIMENTAL // for some thing, on Fedora 40(OS I have right now) need this to build :D
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
