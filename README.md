@@ -3,6 +3,6 @@
 
 To build you need some libaries:
 * [glfw 3.4 x64](https://www.glfw.org/)
-* [glad (OpenGL core 3.3) {already included with cmake}](https://glad.dav1d.de/)
-* [stb_image (to import textures) {already included with cmake}](https://github.com/nothings/stb)
-* [glm (matrixes + math) {already included with cmake}](https://glm.g-truc.net)
+* [glad (OpenGL core 3.3)](https://glad.dav1d.de/) - {already included with cmake}
+* [stb_image (to import textures)](https://github.com/nothings/stb) - {already included with cmake}
+* [glm (matrixes + math)](https://glm.g-truc.net) - {already included with cmake}
