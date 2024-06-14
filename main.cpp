@@ -75,7 +75,7 @@ int main()
 	Texture textures[] =
 	{
 		Texture("texture1.png", "diffuse", 0, GL_RGBA, GL_UNSIGNED_BYTE),
-		Texture("texture1_spec.png", "specular", 0, GL_RED, GL_UNSIGNED_BYTE)
+		Texture("texture1_spec.png", "specular", 1, GL_RED, GL_UNSIGNED_BYTE)
 	};
 
 	Shader shader("default.vert", "default.frag");
