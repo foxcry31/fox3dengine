@@ -170,9 +170,9 @@ int main()
 	glUniform4f(glGetUniformLocation(shader.id, "lightColor"), lightColor.x, lightColor.y, lightColor.z, lightColor.w);
 	glUniform3f(glGetUniformLocation(shader.id, "lightPos"), lightPos.x, lightPos.y, lightPos.z);
 
-	Texture texture("texture1.png", GL_TEXTURE_2D, 0, GL_RGBA, GL_UNSIGNED_BYTE);
+	Texture texture("brick.png", GL_TEXTURE_2D, 0, GL_RGBA, GL_UNSIGNED_BYTE);
 	texture.texUnit(shader, "tex1", 0);
-	Texture specularMap("texture1_spec.png", GL_TEXTURE_2D, 1,GL_RED, GL_UNSIGNED_BYTE);
+	Texture specularMap("brick_spec.png", GL_TEXTURE_2D, 1,GL_RED, GL_UNSIGNED_BYTE);
 	specularMap.texUnit(shader, "specmap", 1);
 
 	glEnable(GL_DEPTH_TEST);
