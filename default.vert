@@ -10,14 +10,18 @@ out vec3 color;
 out vec2 texCoord;
 
 uniform mat4 camera;
+
 uniform mat4 model;
+uniform mat4 translation;
+uniform mat4 rotation;
+uniform mat4 scale;
 
 void main()
 {
+    crntPos = vec3(model * translation * -rotation * scale * vec4(aPos, 1.0f));
     normal = aNormal;
-    crntPos = vec3(model * vec4(aPos, 1.0f));
     color = aColor;
-    texCoord = aTex;
+    texCoord = mat2(0.0f, 1.0f, 1.0f, 0.0f) * aTex;
 
     gl_Position = camera * vec4(crntPos, 1.0);
 }
